@@ -1,0 +1,45 @@
+.userHeader {
+    width: 100%;
+    height: 310px;
+    background-color: white;
+    border-radius: 10px ;
+
+}
+
+.imageItems {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.imageItem {
+    width: 100%;
+    height: 100%;
+    background-color: #3E5F8A;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    bottom: 15px;
+    left: 200px;
+    font-size: 24px;
+    color: red;
+}
+
+.photoItem {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: absolute;
+    left: 25px;
+    bottom: -50px;
+}
+
+.buttonItem {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}

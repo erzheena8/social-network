@@ -1,0 +1,49 @@
+.userPosts {
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+}
+
+.userPostsWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.newPost, .newPostFocus {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.newPost {
+    height: 80px;
+}
+
+.newPostFocus {
+    height: 150px;
+}
+
+.newPost textarea, .newPostFocus textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: 0;
+    padding: 10px 0;
+    font-size: 16px;
+}
+.newPost textarea:focus, .newPostFocus textarea:focus {
+    outline: none;
+}
+
+.addPost {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
