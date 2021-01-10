@@ -1,0 +1,12 @@
+.itemUser {
+    margin: 10px 0;
+}
+
+.itemUser a {
+    text-decoration: none;
+    color: #414A4C;
+}
+
+.itemUser a.active {
+    color: #0095B6;
+}

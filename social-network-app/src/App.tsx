@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./Components/Header/Header";
-import {Profile} from "./Components/Profile/Profile";
-import {Dialogs} from "./Components/Dialogs/Dialogs";
+import {Header} from './Components/Header/Header';
+import {Route} from 'react-router-dom';
+import {DialogsContainer} from './container/DialogsContainer';
+import {ProfileContainer} from './container/ProfileContainer';
+
 
 function App() {
     return (
         <div className='App'>
             <Header/>
-            <Dialogs/>
+            <Route path='/dialogs' render={() => <DialogsContainer />}/>
             <div className='container'>
-                    {/*<Profile/>*/}
+                <Route path='/profile' render={() => <ProfileContainer />}/>
             </div>
         </div>
     );

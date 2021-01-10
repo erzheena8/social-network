@@ -1,0 +1,21 @@
+.messageUser, .messageOtherUser {
+    min-width: 150px;
+    max-width: 80%;
+    min-height: 40px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.messageUser {
+    align-self: flex-end;
+    background-color: #0095B6;
+    color: white;
+    border-radius: 10px 10px 0 10px;
+}
+
+.messageOtherUser {
+    align-self: flex-start;
+    background-color: white;
+    border-radius: 10px 10px 10px 0;
+
+}
